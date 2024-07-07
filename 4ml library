@@ -1,10 +1,5 @@
 --[[
-UPD : 2/26/23 12:53AM EST
-UPD DSC : FIXED MOST OF CONFIG LOADING + ADDED OUTLINE
-
-modified stormy.solutions ui lib
-find an example by just looking for stormy.solutions online
-wsg ma ;) btw this isnt the actual script, ITS JUST THE UI LIBRARY, idk why people wanna send me this thinking it is
+ahh ugly
 --]]
 getgenv().values = {}
 local library = {}
