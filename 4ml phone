@@ -85,14 +85,9 @@ end
 local woah = library:New("4ml <3")
 local misc = woah:Tab("Combat")
 local gaey = woah:Tab("Mods")
-local visu = woah:Tab("Visualization")
-local braeuh = woah:Tab("Configs")
 
 local Haka = gaey:MSector("Mods", "Left")
 local Lalaka = Haka:Tab("Local")
-local Halaka = Haka:Tab("Anti")
-local Galala = Haka:Tab("CSync")
-local Bakala = Haka:Tab("Fun")
 
 Lalaka:Element("Button", "CFrame Speed", {}, function() 
 -- Initial values
@@ -104,14 +99,14 @@ ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ResetOnSpawn = false
 
 local ToggleButton = Instance.new("TextButton")
-ToggleButton.Text = "Toggle Speed"
+ToggleButton.Text = "Speed 4ml <3"
 ToggleButton.Parent = ScreenGui
-ToggleButton.BackgroundTransparency = 0.5
+ToggleButton.BackgroundTransparency = 0
 ToggleButton.BorderSizePixel = 0
 ToggleButton.Position = UDim2.new(1, -120, 0, 55) -- Adjusted the position to top right corner
 ToggleButton.Size = UDim2.new(0, 100, 0, 18)
-ToggleButton.BackgroundColor3 = Color3.fromRGB(48, 113, 169)
-ToggleButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+ToggleButton.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+ToggleButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 
 local UICorner = Instance.new("UICorner")
 UICorner.Parent = ToggleButton
