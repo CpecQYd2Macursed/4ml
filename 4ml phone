@@ -26,7 +26,7 @@ TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.BackgroundTransparency = 1.000
 TextButton.Size = UDim2.new(1, 0, 1, 0)
 TextButton.Font = Enum.Font.SourceSans
-TextButton.Text = "Nebula"
+TextButton.Text = "4ml"
 TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.TextScaled = true
 TextButton.TextSize = 30
@@ -82,7 +82,7 @@ for _, sound in pairs(hitsounds) do
     end
 end
 
-local woah = library:New("mec mec, nebula.cc [for mob]")
+local woah = library:New("4ml <3")
 local misc = woah:Tab("Combat")
 local gaey = woah:Tab("Mods")
 local visu = woah:Tab("Visualization")
@@ -168,7 +168,7 @@ getgenv().getgenv().Settings = {
              },
             Hitsounds = {
                   Enabled = false,
-                  Sound = "hitsounds/sparkle.wav",
+                  Sound = "hitsounds/bubble.wav",
             },
         }
     }
@@ -256,13 +256,13 @@ local Prediction = true
         end
         placemarker.Transparency = 0.75
         if getgenv().Settings.NyulaRemake.DOT then
-        makemarker(placemarker, placemarker, Color3.fromRGB(48, 113, 169), 1, 0)
+        makemarker(placemarker, placemarker, Color3.fromRGB(255, 247, 0), 1, 0)
         end
     end)
  
     local Tool = Instance.new("Tool")
 Tool.RequiresHandle = false
-Tool.Name = "Nebula"
+Tool.Name = "4ml"
 Tool.Parent = game.Players.LocalPlayer.Backpack
 
 local player = game.Players.LocalPlayer
@@ -284,7 +284,7 @@ if getgenv().Settings.NyulaRemake.Enabled then
                 if getgenv().Settings.NyulaRemake.NOTIF == true then
                     Plr = getClosestPlayerToCursor()
          las.Parent = nil       game.StarterGui:SetCore("SendNotification", {
-                    Title = "Nebula.cc";
+                    Title = "4ml";
                     Text = "Unlocked",
                     Duration = 5
                 })
@@ -353,7 +353,7 @@ end)
                 if getgenv().Settings.NyulaRemake.NOTIF == true then
  
                     game.StarterGui:SetCore("SendNotification", {
-                        Title = "nebula.cc";
+                        Title = "4ml";
                         Text = "Target: "..tostring(Plr.Character.Humanoid.DisplayName),
                         Duration = 5
                     })
