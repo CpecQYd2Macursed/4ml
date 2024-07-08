@@ -1,4 +1,4 @@
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bobbbb-b/nyulabutlowbudget/main/Lib%20(1).txt"))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/CpecQYd2Macursed/4ml/main/4ml%20library"))()
 
 -- Gui to Lua
 -- Version: 3.2
